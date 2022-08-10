@@ -1,0 +1,35 @@
+main{
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: silver;
+  	color: blue;
+}
+
+h1{
+	color: blueviolet;
+	font-size: 40px;
+	padding: 10px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	color: dodgerblue;
+}
+
+p{
+	color: blueviolet;
+}
+
+.a{
+	text-indent: 50px;
+}
+
+.languageDescription{
+	color: white;
+	text-align: center;
+}
+
+

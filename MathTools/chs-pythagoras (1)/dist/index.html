@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Codepen - Pythagorean theorem</title>
+  <script type="text/javascript" src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="content">
+  <h1>Find the hypotenuse</h1>
+  <h2>by Michael Delfino</h2>
+
+  <img height="150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Pythagorean_triangle_with_sides_a_b_and_c.svg/1280px-Pythagorean_triangle_with_sides_a_b_and_c.svg.png"></img>
+  <br /><br />
+
+  <!-- Use of this image is allowed due to its license:
+  https://commons.wikimedia.org/wiki/File:Pythagorean_triangle_with_sides_a_b_and_c.svg
+
+  Make sure to not just use any random image you find on the internet!
+  -->
+
+  <!-- Give an 'id' to easily get a reference in js -->
+  a = <input id="leg1" type="text"><br /><br />
+  b = <input id="leg2" type="text"><br /><br />
+
+  <div id="hypot">c =</div><br />
+
+  <!-- the onClick attribute can call a js function -->
+  <button id="calc" onClick="findHypotenuse()">Calculate</button>
+</div>
+
+<!-- Ideas for similar projects:
+-More generalized Pythagorean Theoream solver
+-Quadratic Formula Calculator
+-Other math procedures
+-Unit conversion (C <-> F, USD <-> INR, in <-> cm, etc...)
+-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

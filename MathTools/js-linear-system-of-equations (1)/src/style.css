@@ -1,0 +1,19 @@
+body {
+  font-family: system-ui;
+  background-color: rgb(200,200,200);
+  color: black;
+  text-align: center;
+}
+#content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  width: 60%;
+  background-color: rgb(200,255,200);
+}
+button{
+  background-color: rgb(100,100,200);
+  color: white;
+  font-size: 16px;
+  padding:12px 24px;
+}
